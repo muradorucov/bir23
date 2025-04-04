@@ -1,0 +1,40 @@
+{
+    "plateNumberList": [
+        {
+            "id": "294617ca-6846-4880-8fe6-5d2064a2d803",
+            "plateNumber": "LMN456"
+        },
+        {
+            "id": "bbe4ce1f-92e9-462e-a74c-001bfdd07cfb",
+            "plateNumber": "LMN455"
+        },
+        {
+            "id": "50375de0-0b2b-4431-8007-68291ee92dcf",
+            "plateNumber": "77GX084"
+        }
+    ],
+    "fileList": [
+        {
+            "id": "6b8e8c83-d4d4-4f1d-8ae4-a5f116fc75c5",
+            "filePath": "/uploads/1741791092310-182631441-860328.png",
+            "plateNumber": "LMN456"
+        },
+        {
+            "id": "4d4755b9-ff36-4c2d-af31-a71b07ff9cd5",
+            "filePath": "/uploads/1741791092310-182631441-149049.png",
+            "plateNumber": "LMN456"
+        }
+    ],
+    "commentList": [
+        {
+            "id": "ded8ba5d-58f9-4a60-bb4e-fa7b9527219d",
+            "plateNumber": "LMN455",
+            "comment": "Vaoo ne qeseng mashindir!"
+        },
+        {
+            "id": "b057abdc-a76f-4fcd-93d8-bf1fc37b847a",
+            "plateNumber": "77GX084",
+            "comment": "Vaoo ne qeseng Audidir!"
+        }
+    ]
+}
