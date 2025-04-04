@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const readFromFile = require('../helpers/ReadFromFile');
+const readFromFile = require('../helpers/reFromFile');
 const writeToFile = require('../helpers/writeTofile');
 
 const createComment = (req, res) => {
