@@ -9,7 +9,8 @@ const createComment = (req, res) => {
     const newComment = {
         id: uuidv4(),
         plateNumber: platenumber,
-        comment
+        comment,
+        createdAt: new Date(),
     }
 
     const platesNum = readFromFile("plateNumberList");

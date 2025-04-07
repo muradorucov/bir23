@@ -7,6 +7,7 @@ const findCarByPlateNumber = (req, res) => {
         const findPlateNumber = plateNumberList.find((item) => item.plateNumber === platenumber);
         if (!findPlateNumber) {
             return res.status(404).json({
+                platenumber,
                 message: 'Plate number not found'
             });
         }
@@ -15,6 +16,7 @@ const findCarByPlateNumber = (req, res) => {
         const commentList = readFromFile("commentList");
         const foundComments = commentList.filter((item) => item.plateNumber === platenumber);
         res.status(200).json({
+            platenumber,
             fileList: foundFiles,
             commentList: foundComments
         });

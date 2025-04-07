@@ -5,10 +5,12 @@ const writeToFile = require('../helpers/writeTofile');
 const createFileByCar = (req, res) => {
     const { platenumber } = req.params;
     const file = req.file;
+    console.log("req.file", file);
 
     const newFile = {
         id: uuidv4(),
         filePath: "/uploads/" + file.filename,
+        type: file.mimetype.includes("video") ? "video" : "image",
         plateNumber: platenumber
     }
     const platesNum = readFromFile("plateNumberList");
