@@ -20,6 +20,7 @@ const createComment = (req, res) => {
         platesNum.push({
             id: uuidv4(),
             plateNumber: platenumber,
+            profilePhoto: "/uploads/default.jpg"
         });
         writeToFile("plateNumberList", platesNum);
     }

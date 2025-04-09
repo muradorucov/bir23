@@ -5,7 +5,6 @@ const writeToFile = require('../helpers/writeTofile');
 const createFileByCar = (req, res) => {
     const { platenumber } = req.params;
     const file = req.file;
-    console.log("req.file", file);
 
     const newFile = {
         id: uuidv4(),
@@ -20,6 +19,7 @@ const createFileByCar = (req, res) => {
         platesNum.push({
             id: uuidv4(),
             plateNumber: platenumber,
+            profilePhoto: newFile.type === "image" ? newFile.filePath : "/uploads/default.jpg"
         });
         writeToFile("plateNumberList", platesNum);
     }

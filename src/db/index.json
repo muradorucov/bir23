@@ -2,23 +2,28 @@
     "plateNumberList": [
         {
             "id": "294617ca-6846-4880-8fe6-5d2064a2d803",
-            "plateNumber": "LMN456"
+            "plateNumber": "LMN456",
+            "profilePhoto": "/uploads/1741791092310-182631441-149049.png"
         },
         {
             "id": "bbe4ce1f-92e9-462e-a74c-001bfdd07cfb",
-            "plateNumber": "LMN455"
+            "plateNumber": "LMN455",
+            "profilePhoto": "/uploads/2020-audi-rs6-avant-671124.jpg"
         },
         {
             "id": "50375de0-0b2b-4431-8007-68291ee92dcf",
-            "plateNumber": "77GX084"
+            "plateNumber": "77GX084",
+            "profilePhoto": "/uploads/174325198524-797159.jpg"
         },
         {
             "id": "e0139ced-d6c8-4b7b-97b2-41ab593a0e38",
-            "plateNumber": "77AA077"
+            "plateNumber": "77AA077",
+            "profilePhoto": "/uploads/RS_6_2022_4345-S-957087.avif"
         },
         {
             "id": "e076ddde-4700-4634-b1a4-063d80106588",
-            "plateNumber": "77YT089"
+            "plateNumber": "77YT089",
+            "profilePhoto": "/uploads/174325198570-605568.jpg"
         }
     ],
     "fileList": [
@@ -129,6 +134,24 @@
             "filePath": "/uploads/174359825311-688756.mp4",
             "type": "video",
             "plateNumber": "LMN456"
+        },
+        {
+            "id": "90eb463c-c5fd-4a99-a000-96b1a05da076",
+            "filePath": "/uploads/2020-audi-rs6-avant-671124.jpg",
+            "type": "image",
+            "plateNumber": "LMN455"
+        },
+        {
+            "id": "35172968-9587-4b7f-8175-cbbabf1848b9",
+            "filePath": "/uploads/2020-audi-rs6-avant-340322.jpg",
+            "type": "image",
+            "plateNumber": "77GX084"
+        },
+        {
+            "id": "32f20ff2-9f8b-4b06-9308-9cec163aee75",
+            "filePath": "/uploads/maldives-paradise-luxury-beach-tropical-aerial-travel-landscape-seascape-long-pier-water-villas-228812.jpg",
+            "type": "image",
+            "plateNumber": "LMN455"
         }
     ],
     "commentList": [
