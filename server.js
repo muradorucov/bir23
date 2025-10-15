@@ -7,6 +7,7 @@ dotenv.config();
 
 var whitelist = [
     process.env.GLOBAL_ORIGIN,
+    "http://127.0.0.1:5500/"
     // process.env.LOCAL_ORIGIN
 ]
 
